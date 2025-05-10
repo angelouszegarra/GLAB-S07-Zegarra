@@ -60,7 +60,7 @@ export const isAdmin = async (req, res, next) => {
     const isAdmin = roles.some(role => role.name === "admin");
     
     if (!isAdmin) {
-      return res.status(403).json({ message: "¡Se requiere rol de administrador!" });
+      return res.status(403).json({ message: "¡Se requiere rol de administrado!" });
     }
 
     next();
