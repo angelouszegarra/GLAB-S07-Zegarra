@@ -1,0 +1,25 @@
+# Dependencias instaladas
+node_modules/
+
+# Variables de entorno (archivos con datos sensibles)
+.env
+
+# Logs
+*.log
+
+# Archivos de sistema (Mac, Windows)
+.DS_Store
+Thumbs.db
+
+# Carpetas de build o distribución
+dist/
+build/
+
+# Archivos temporales
+*.tmp
+*.cache
+
+# Archivos de depuración de npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
